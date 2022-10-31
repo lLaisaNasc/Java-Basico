@@ -1,10 +1,13 @@
-public class Aluno extends Pessoa {
-
+public class Alunoo extends Pessoaa{
     private int mat;
     private String curso;
 
     public void cancelarMat(){
         System.out.println("Matrícula Cancelada!");
+    }
+
+    public void pagarMensalidade(){
+        System.out.println("Pagando Mensalidade do Aluno: " + this.getNome());
     }
 
     public void setMat(int mat) {

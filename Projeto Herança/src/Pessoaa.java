@@ -1,5 +1,4 @@
-public class Pessoa {
-
+abstract class Pessoaa {
     private String nome;
     private int idade;
     private String sexo;
