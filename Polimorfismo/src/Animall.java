@@ -1,11 +1,9 @@
-public abstract class Animal {
+public abstract class Animall {
 
     protected float peso;
     protected int idade;
     protected int membros;
 
-    public abstract void locomover();
-    public abstract void alimentar();
     public abstract void emitirSom();
 
     public void setPeso(float peso) {
